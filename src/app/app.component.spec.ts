@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`debe crear el titulo'FormuT'`, () => {
+  it(`debe crear el titulo'FormTra'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('FormuT');
+    expect(app.title).toEqual('FormTra');
   });
   
   it('debe mostrar texto e imagen', () => {
