@@ -3,4 +3,4 @@ export function FormTra(B,b,h) {
     let A=0;
     A = ((B+b)/2)*h;
     return A;
-}
+};
