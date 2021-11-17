@@ -11,7 +11,7 @@ describe('FormTra', () =>{
     //prueba 2
     it('Base mayor 9 mas base menor 6 entre 2 por 4 = 30', () => {
 
-        const result = FormTra(9,6,30);
+        const result = FormTra(9,6,4);
         expect(result).toBe(30);
     })
     //prueba 3
